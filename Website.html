@@ -33,6 +33,16 @@
             font-family: 'Arial Narrow'
           }
       </style>
+      <style>
+        .name {
+          background-color: rgb(255, 170, 202);
+          color: black;
+          border: 1px solid black;
+          margin: 20px;
+          padding: 20px;
+          font-family: 'Arial Narrow'
+        }
+      </style>
   </head>
  <body>
   <nav>
@@ -100,8 +110,20 @@
     </div>
     <div class="classes" style="width:25%">
       <h3>Classes</h3>
-      <p>Tne students are graded in their classes based on a pass/fail system.</p>
+      <p>The students are graded in their classes based on a pass/fail system.</p>
     </div></p>
+    <div class="name" style="width:50%">
+      <h2>Text field</h2>
+      <p>The <strong>input type="text"</strong> defines a one-line text input field:</p>
+      <form action="/action_page.php">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname"><br><br>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+
     <footer>
       <ul>
         <li><a href=”mailto:wengerc3@mymail.nku.edu”>wengerc3@mymail.nku.edu</a></li>
